@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Java/E-commerce/app/src/main/res/drawable/edittext_bg.xml" value="0.1945" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.1945" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/drawable/ic_folder.xml" value="0.1945" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_cart.xml" value="0.1" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_checkout.xml" value="0.25" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_main.xml" value="0.14" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_product_deatail.xml" value="0.1" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_product_detail.xml" value="0.22" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_product_detail2.xml" value="0.1" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/activity_product_detail3.xml" value="0.1" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/item_cart.xml" value="0.16" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/item_catagories.xml" value="0.25" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/item_product.xml" value="0.25" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/layout/quantitydialog.xml" value="0.21" />
+        <entry key="..\:/Java/E-commerce/app/src/main/res/menu/cart.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
