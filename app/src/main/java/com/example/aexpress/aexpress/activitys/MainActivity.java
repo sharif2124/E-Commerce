@@ -3,6 +3,7 @@ package com.example.aexpress.aexpress.activitys;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
@@ -19,6 +20,7 @@ import com.example.aexpress.aexpress.Model.Category;
 import com.example.aexpress.aexpress.Model.Product;
 import com.example.aexpress.aexpress.utilits.Constants;
 import com.example.aexpress.databinding.ActivityMainBinding;
+import com.mancj.materialsearchbar.MaterialSearchBar;
 
 import org.imaginativeworld.whynotimagecarousel.model.CarouselItem;
 import org.json.JSONArray;
@@ -38,6 +40,24 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding=ActivityMainBinding.inflate(getLayoutInflater()) ;
         setContentView(binding.getRoot());
+        binding.searchBar.setOnSearchActionListener(new MaterialSearchBar.OnSearchActionListener() {
+            @Override
+            public void onSearchStateChanged(boolean enabled) {
+
+            }
+
+            @Override
+            public void onSearchConfirmed(CharSequence text) {
+                Intent intent = new Intent(MainActivity.this,SearchActivity.class);
+                intent.putExtra("query",text.toString());
+                startActivity(intent);
+            }
+
+            @Override
+            public void onButtonClicked(int buttonCode) {
+
+            }
+        });
        initcatagory();
        initproduct();
         initslider();
